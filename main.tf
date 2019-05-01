@@ -1,4 +1,4 @@
 module "instance" {
-source = "github.com/chauhaan/TerraformModules/Instance"
+source = "github.com/chauhaan/TerraformModules/AWS_Instance"
 aws_key_pair = ""
 }

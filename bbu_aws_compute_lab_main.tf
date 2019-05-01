@@ -1,5 +1,5 @@
 resource "aws_instance" "bbu_private_webserver" {
-  ami                     = "${lookup(var.ami,var.aws_region)}"
+  ami                     = "${var.ami}"
   instance_type           = "${var.instance_type}"
   count                   = "${var.instance_count}"
   subnet_id               = "${var.subnet_id}"

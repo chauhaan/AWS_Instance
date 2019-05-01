@@ -3,7 +3,7 @@ variable "region" {
 }
 variable "aws_key_pair" {}
 variable "ami" {
-    default = = "ami-0b500ef59d8335eee"
+    default = "ami-0b500ef59d8335eee"
 }
 variable "instance_type" {
   description = "The type of instance to start"
